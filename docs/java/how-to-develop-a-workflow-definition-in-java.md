@@ -262,7 +262,7 @@ public interface NotifyUserAccounts {
 The Workflow implementation for the preceding Workflow interface using typed `WorkflowStub` will be as follows:
 
 ```java
-Public static void main(String[] args){
+public static void main(String[] args){
 NotifyUserAccounts workflow = client.newWorkflowStub(
       NotifyUserAccounts.class,
       WorkflowOptions.newBuilder()
